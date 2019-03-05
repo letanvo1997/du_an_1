@@ -24,5 +24,16 @@ namespace Lab_1
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello","xin chao mọi nguoi")
+                ;
+        }
+
+        private void abc_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("abc", "hi");
+        }
     }
 }

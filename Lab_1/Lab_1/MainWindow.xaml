@@ -9,6 +9,17 @@
     <Grid>
         <Button
             x:Name="btnHello"
+            Height="35"
+            Width="100"
+            Content="Show" Click="btnHello_Click"
+            
+          />
+        <Button
+            x:Name="abc"
+            Height="35"
+            Width="100"
+            Content="AA" Click="abc_Click"
+            
           />
     </Grid>
 </Window>
